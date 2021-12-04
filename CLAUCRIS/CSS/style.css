@@ -269,7 +269,8 @@ section {
   
   .collares {
 	background-image: url(../IMG/collar4.jpg);
-	background-size: 130px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 5px;
 	height: 70%;
 	margin: 15%;
@@ -278,8 +279,9 @@ section {
   
   .aretes {
 	background-image: url(../IMG/aretes1.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 120px 130px;
+	background-size: cover;
 	border-radius: 50%;
 	height: 70%;
 	margin: 15%;
@@ -288,8 +290,9 @@ section {
   
   .anillos {
 	background-image: url(../IMG/anillo.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 160px;
+	background-size: cover;
 	border-radius: 5px;
 	height: 70%;
 	margin: 15%;
@@ -297,7 +300,8 @@ section {
 
 .pulseras {
 	background-image: url(../IMG/pulsera3.jpg);
-	background-size: 160px 125px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 50%;
 	height: 70%;
 	margin: 15%;
@@ -306,7 +310,8 @@ section {
 
 .tocados {
 	background-image: url(../IMG/tocado.jpg);
-	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 	border-radius: 5px;
 	height: 70%;
@@ -589,13 +594,14 @@ footer{
 	.cuadros{
 		margin-top: 10%;
 		width: 80%;
-		height: 95rem;
+		height: 100rem;
 		padding: 80px 60px;
 		border-radius: 25px;
 	}
 	.product{
-		width: 80%;
-		margin: 18% 10%;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 30%;
 	}
 	.productSec{
 		display: none;
@@ -769,6 +775,8 @@ footer{
 		text-align: center;
 		color:white;
 	}
+
+	
 }
 
 
@@ -1027,6 +1035,10 @@ footer{
 		text-align: center;
 		color:white;
 	}
+
+	.cuadros{
+		height: 230rem;
+	}
 	
 }
 
@@ -1125,7 +1137,7 @@ footer{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-
+		height: 65rem;
 		
 	}
 	
@@ -1224,14 +1236,14 @@ footer{
 	/**************************************************FOOTER*****************************************************/
 
 	.imagenF{
-		width: 40%;
-		height: 400px;
-		margin:auto;
+		width: 28%;
+		margin: auto;
 	}
 
 	.footerlogo{
+		display: block;
 		border-radius: 50%;
-		margin-left: 10%;
+		margin: auto;
 		height: 25rem;
 	}
 
@@ -1247,13 +1259,18 @@ footer{
 
 	.iconosF{
 		display: flex;
+		width: 30%;
+		align-items: center;
 	}
 
 	.iconosI{
+		margin: 0;
 		display: flex;
 		flex-direction: column;
-		width: 15%;
-		height: 100px;
+		width: 20%;
+		height: 25rem;
+		max-width: 100%;
+		align-items: center;
 	}
 
 	.iconosT p{
@@ -1267,8 +1284,8 @@ footer{
 
 
 	.iconos{
-		width: 100%;
-		margin: 20%;
+		width: 80%;
+		margin-bottom: 10%;
 	}
 
 	.iconos:hover{
@@ -1277,7 +1294,7 @@ footer{
 	}
 
 	.textoF{
-		width: 40%;
+		width: 30%;
 		align-items: flex-start;
 	}
 
@@ -1285,6 +1302,10 @@ footer{
 		font-size: 30px;
 		text-align: center;
 		color:white;
+	}
+
+	.cuadros{
+		height: 50rem;
 	}
 
 	
